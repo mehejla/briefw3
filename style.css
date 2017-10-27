@@ -1,0 +1,75 @@
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  color: Grey;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+  margin: 0 0 0.1em 0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 0.9em;
+  margin: 0 0 50px;
+  color: #999;
+}
+
+a {
+  margin-top: 50px;
+  display: block;
+  color: #3e95cd;
+}
+
+
+/* Chart 1 BUBBLE */
+
+#bubble-chart {
+  margin: auto;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Video bakgrund */
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%; 
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(spacelogo.png) no-repeat;
+    background-size: cover; 
+}
+
+/*header*/
+img.logo {
+
+width: 25%;
+    height: auto;
+display: block;
+    margin: auto;
+
+
+}
+#header {
+
+padding-top: 20px;
+position: auto;
+padding-left: 40px;
+}
